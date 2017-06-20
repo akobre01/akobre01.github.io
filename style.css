@@ -80,7 +80,7 @@ body {
     width:250px;
 }
 
-.social { width:160px; margin:auto; padding-top:20px;}
+.social { width:200px; margin:auto; padding-top:20px;}
 .social a { color:#000; }
 .fb a:hover { color:#3b5998; }
 .twit a:hover { color:#00aced; }
