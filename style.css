@@ -44,6 +44,7 @@ body {
 .main p { padding-top:0px; margin-top:0px; }
 
 .main ul { padding:0px; line-height:1.5em;}
+.icons-ul { list-style:none; padding-left:0}
 .main ul li { padding-bottom:10px;}
 .contactbox {
     width:400px;
