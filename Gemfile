@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
-    #gem "github-pages", "~> 232", group: :jekyll_plugins
+    #gem "github-pages", "~> 232"#, group: :jekyll_plugins
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
