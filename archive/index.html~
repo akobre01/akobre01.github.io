@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blog-home.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <title>Ari Kobren</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Marcellus+SC'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"
+          href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="academicons-1.8.0/css/academicons.min.css">
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> -->
+    <!--     <div class="container"> -->
+    <!--         <\!-- Brand and toggle get grouped for better mobile display -\-> -->
+    <!--         <div class="navbar-header"> -->
+    <!--             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> -->
+    <!--                 <span class="sr-only">Toggle navigation</span> -->
+    <!--                 <span class="icon-bar"></span> -->
+    <!--                 <span class="icon-bar"></span> -->
+    <!--                 <span class="icon-bar"></span> -->
+    <!--             </button> -->
+    <!--             <a class="navbar-brand" href="#">Start Bootstrap</a> -->
+    <!--         </div> -->
+    <!--         <\!-- Collect the nav links, forms, and other content for toggling -\-> -->
+    <!--         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+    <!--             <ul class="nav navbar-nav"> -->
+    <!--                 <li> -->
+    <!--                     <a href="#">About</a> -->
+    <!--                 </li> -->
+    <!--                 <li> -->
+    <!--                     <a href="#">Services</a> -->
+    <!--                 </li> -->
+    <!--                 <li> -->
+    <!--                     <a href="#">Contact</a> -->
+    <!--                 </li> -->
+    <!--             </ul> -->
+    <!--         </div> -->
+    <!--         <\!-- /.navbar-collapse -\-> -->
+    <!--     </div> -->
+    <!--     <\!-- /.container -\-> -->
+    <!-- </nav> -->
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <h1 class="page-header">Ari Kobren</h1>
+      <div class="row">
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4 col-md-push-8">
+                <!-- Side Widget Well -->
+                <div>
+		  <img class="img-responsive img-rounded" src="arikobren.jpg">
+                  <!-- <h4>Side Widget Well</h4> -->
+                  <!--   <p>Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit. Inventore, perspiciatis adipisci
+                  accusamus laudantium odit aliquam repellat tempore
+                    quos aspernatur vero.</p> -->
+		  <span><span style="padding-left:1px; padding-right:2px;"><i class="icon-map-marker icon-large"></i></span> Amherst, Massachusetts, USA</span><br/>
+		  <span><span style="padding-left:1px; padding-right:2px;"><i class="icon-globe"></i></span> people.cs.umass.edu/~akobren</span><br/>
+		  <span><span style="padding-right:2px;"><i class="icon-envelope"></i></span> akobren (at) cs (dot) umass (dot) edu</span><br/>
+		  <span><span style="padding-left:2px;
+		  padding-right:2px;"><i class="icon-file"></i></span> <a href="AriKobren-resume-with-pubs.pdf">resume
+		      (PDF)</a></span><br/>
+                  <span><a href="https://orcid.org/0000-0003-4788-7481" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0003-4788-7481</a></span>
+		  <div class="social text-center">
+                    <span class="gs"><a href="https://scholar.google.com/citations?user=p5P4vaoAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-2x"></i></a>&nbsp;&nbsp;</span>
+                    <span class="gh"><a href="http://github.com/akobre01"><i class="icon-github-alt icon-2x"></i></a>&nbsp;&nbsp;</span>
+		    <span class="twit"><a href="http://twitter.com/akobren"><i class="icon-twitter-sign icon-2x"></i></a> &nbsp;&nbsp;</span>
+		    <span class="fb"><a href="http://www.facebook.com/ari.kobren"><i class="icon-facebook-sign icon-2x"></i></a> &nbsp;&nbsp;</span>
+		    <span class="lin"><a href="http://www.linkedin.com/pub/ari-kobren/75/1a7/5b6"><i class="icon-linkedin-sign icon-2x"></i></a>&nbsp;&nbsp;</span>
+		    <span class="gp"><a href="http://plus.google.com/u/0/103855770106829243230/"><i class="icon-google-plus-sign icon-2x"></i></a>&nbsp;&nbsp;</span>
+		  </div>
+		  <br />
+		  <br />
+
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8 col-md-pull-4">
+              <p>I am a research scientist in
+                  the <a href="https://labs.oracle.com/pls/apex/f?p=labs:49:::::P49_PROJECT_ID:7">Machine
+                  Learning Research Group</a> of Oracle Labs in
+                  Burlington, MA. I am interested in studying how
+                  computational tools--especially those that are
+                  powered by machine learning--can be used safely and
+                  to promote social good.  I am broadly interested in
+                  machine learning, NLP, efficient algorithms, and data
+                  structures.</p>
+
+	      <p>Before Oracle, I completed a
+                  Ph.D. at <a href="http://www.cs.umass.edu">UMass
+                  Amherst</a> working in
+                  the <a href="http://www.iesl.cs.umass.edu">Information
+                  Extraction and Synthesis Laboratory</a> with
+                  Professor <a href="http://people.cs.umass.edu/~mccallum/">Andrew
+                  McCallum</a>. I received a B.S. in Computer Science
+                  from <a href="http://www.tufts.edu">Tufts
+                  University</a> and worked as a researcher
+                  at <a href="http://www.ll.mit.edu">MIT Lincoln
+                  Laboratory</a> building intelligent decision support
+                  systems. I spent the
+                  summers of 2014 and 2016 interning at Google. 
+
+<!--                  at <a href="http://www.google.com/insidesearch/features/search/knowledge.html">Google
+                  MTV</a> training models of worker-task interaction
+                  that I used to optimize a
+                  new <a href="https://www.quizz.us/#/list">crowdsourcing
+                  platform</a>. I spent the summer of 2016 at Google
+                  NYC building deep networks to predict
+                  characteristics of the locations in Google
+                  Maps.</p>-->
+
+                <h2>Publications</h2>
+		<ul class="icons-ul">
+	          <li><i class="icon-li
+                    icon-plus"><a href="https://aclanthology.org/2022.acl-long.247/"></i>Upstream Mitigation is <em>Not</em> All You Need: Testing the Bias Transfer Hypothesis in Pre-Trained Language Models.</a><br />Steed, R., Panda, S.,  <strong>Kobren, A.</strong>, Wick, M.<br /><em>Annual Meeting of the Association for Computational Linguistics (ACL).</em> Dublin, Ireland. May, 2022.<br/>[<a href="steed2022upstream.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://www.aaai.org/AAAI22Papers/AAAI-11084.MishraS.pdf">An Evaluative Measure of Clustering Methods Incorporating Hyperparameter Sensitivity.</a><br />Mishra, S., Monath, N., Boratko, M.,  <strong>Kobren, A.</strong>, McCallum, A.<br /><em>Conference on Artificial Intelligence (AAAI).</em> Vancouver, BC, Canada. February, 2022.<br/>[<a href="mishra2022evaluative.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://dl.acm.org/doi/10.1145/3437963.3441724">Online Post-Processing in Rankings for Fair Utility Maximization</a>.<strong>Oral Presentation</strong><br />Gupta, A., Johnson, E., Roy, A. K., Payan, J., <strong>Kobren, A.,</strong> Panda, S., Tristan, J.-B., Wick, M.<br /><em>Web Search and Data Mining (WSDM).</em> Virtual. March, 2021.<br/> [<a href="gupta2021online.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://www.aclweb.org/anthology/2020.blackboxnlp-1.6.pdf">Leveraging Extracted Model Adversaries for Improved Black Box Attacks.</a><br />Nizar, N. J., <strong>Kobren, A.</strong><br /><em>Analyzing and Interpreting Neural Networks for NLP</em> Virtual. November, 2020.<br/>
+                    [<a href="https://arxiv.org/abs/2010.16336">arXiv</a>][<a href="nizar2020leveraging.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://openreview.net/pdf?id=pJg1LahGc0">Predicting Institution Hierarchies with Set-based Models.</a><br />Tam, D., Monath, N., <strong>Kobren, A.</strong>, McCallum, A.<br /><em>Automated Knowledge Base Construction.</em> Virtual. May, 2020.<br/>
+                    [<a href="tam2020predicting.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://papers.nips.cc/paper/9630-offline-contextual-bandits-with-high-probability-fairness-guarantees.pdf">Offline Contextual Bandits with
+                    High Probability Fairness
+                    Guarantees.</a><br />Metevier, B., Giguere, S.,
+                    Brockman, S., <strong>Kobren, A.,</strong> Brun,
+                    Y., Brunskill, E., Thomas, P.<br /><em>Neural
+                    Information Processing Systems.</em> Vancouver,
+                    Canada. December 2019.<br/>
+                    [<a href="metevier2019bandits.bib">bibtex</a>][<a href="https://fortune.com/2019/12/17/the-emerging-disconnect-between-business-and-academic-interests-in-a-i/">press</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://www.aclweb.org/anthology/P19-1592">Optimal Transport-based Alignment
+                    of Learned Character Representations for String
+                    Similarity.</a>  (<strong>Oral
+                    Presentation</strong>)<br />Tam, D., Monath,
+                    N., <strong>Kobren, A.</strong>, Traylor, A., Das,
+                    R., McCallum, A.<br /><em>Association of
+                    Computational Linguistics.</em> Florence, Italy. July
+                    2019.<br/>
+                    [<a href="https://arxiv.org/abs/1907.10165">arXiv</a>][<a href="tam2019optimal.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://dl.acm.org/citation.cfm?id=3330929">Scalable Hierarchical Clustering
+                    with Tree Grafting.</a> (<strong>Oral
+                    Presentation</strong>)<br />Monath,
+                    N.*, <strong>Kobren, A.*</strong>, Krishnamurthy,
+                    A., Glass, M., Mccallum, A.<br /><em>The
+                    International Conference on Knowledge Discovery
+                    and Data Mining.</em> Anchorage, Alaska. August
+                    2019.</br>
+                    [<a href="https://arxiv.org/abs/2001.00076">arXiv</a>][<a href="monath2019grinch.bib">bibtex</a>][<a href="https://github.com/iesl/grinch">code<a/>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://dl.acm.org/citation.cfm?id=3330899">Paper Matching with Local Fairness
+                    Constraints.</a> (<strong>Oral
+                    Presentation</strong>)<br /><strong>Kobren, A.</strong>,
+                    Saha, B., McCallum, A.<br /><em>The
+                    International Conference on Knowledge Discovery
+                    and Data Mining.</em> Anchorage, Alaska. August
+                    2019.<br/>
+                    [<a href="https://arxiv.org/abs/1905.11924">arXiv</a>][<a href="kobren2019matching.bib">bibtex</a>][<a href="https://github.com/iesl/fair-matching">code</a>][<a href="https://www.youtube.com/watch?v=Z0bxCTsH2gM">promo video</a>][<a href="https://www.sciencemag.org/news/2021/04/ai-conferences-use-ai-assign-papers-reviewers">Press</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://dl.acm.org/citation.cfm?id=3330720">Constructing High Precision
+                    Knowledge Bases with Subjective and Factual
+                    Attributes.</a><br /><strong>Kobren, A.</strong>,
+                    Barrio, P., Yakhnenko, O., Hibschman, J., Langmore,
+                    I.<br /><em>The
+                    International Conference on Knowledge Discovery
+                    and Data Mining.</em> Anchorage, Alaska. August
+                    2019.<br />[<a href="https://arxiv.org/abs/1905.12807">arXiv</a>][<a href="kobren2019precision.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="http://proceedings.mlr.press/v97/yadav19a/yadav19a.pdf">Supervised Hierarchical Clustering
+                    with Exponential Linkage.</a><br />Yadav, N., <strong>Kobren, A.</strong>, Monath,
+                    N., McCallum, A.<br /><em>International Conference
+                    on Machine Learning (ICML).</em>  Long Beach,
+                    CA. June 2019. <br/>[<a href="https://arxiv.org/abs/1906.07859">arXiv</a>][<a href="yadav2019explink.bib">bibtex</a>][<a href="http://proceedings.mlr.press/v97/yadav19a/yadav19a-supp.pdf">supplement</a>][<a href="https://github.com/iesl/expLinkage">code</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="https://openreview.net/pdf?id=SygLHbcapm">Integrating User Feedback under Identity Uncertainty in Knowledge Base Construction</a>.<br /><strong>Kobren, A.</strong>, Monath,
+                    N., McCallum, A.<br /><em> Automated Knowledge
+                    Base Construction (AKBC).</em>  Amherst, MA. May
+                    2019.<br/>[<a href="kobren2019feedback.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="http://papers.nips.cc/paper/8081-compact-representation-of-uncertainty-in-clustering.pdf">Compact Representation of
+                    Uncertainty In Clustering.</a><br />Greenberg,
+                    C., Monath,
+                    N., <strong>Kobren, A.</strong>, Flaherty, P.,
+                    McGregor, A., McCallum, A.<br /><em> Neural
+                    Information Processing Systems.</em>  Montreal, Canada. December
+                    2018. <br/>[<a href="greenberg2018compact.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li
+                    icon-plus"></i><a href="http://people.cs.umass.edu/~nmonath/papers/gradient_based_hierarchical_clustering_discml_ws.pdf">Gradient-based
+                    Hierarchical Clustering.</a>  (<strong>Oral
+                    Presentation</strong>) <br />Monath,
+                    N.*, <strong>Kobren, A*.</strong>, Krishnamurthy,
+                    A., McCallum, A. (*Equal Contribution)<br /><em>NIPS 17' Workshop on Discrete
+                    Structures in Machine Learning.</em>  Long Beach,
+                    California. December 2017.<br/>
+                    [<a href="monath2017gradient.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li icon-plus"></i>
+                    <a href="http://www.akbc.ws/2017/papers/27_paper.pdf">Entity-centric
+                      Attribute Feedback for Interactive Knowledge
+                      Bases.</a>  <br /><strong>Kobren, A.</strong>,
+                      Monath, N., McCallum, A. <em>NIPS 17' Workshop
+                      on Automated Knowledge Base Construction.</em>
+                      Long Beach, California. December 2017.<br/>
+                      [<a href="kobren2017entity.bib">bibtex</a>]
+                  </li>
+	          <li><i class="icon-li icon-plus"></i>
+                    <a href="https://dl.acm.org/authorize?N34117">A
+                    Hierarchical Algorithm for Extreme Clustering.</a>
+                    (<strong>Oral
+                    Presentation</strong>)<br /><strong>Kobren,
+                    A*.</strong>, Monath, N.*, Krishnamurthy, A.,
+                    McCallum, A.  (*Equal Contribution)<br /><em>The
+                    International Conference on Knowledge Discovery
+                    and Data Mining.</em> Halifax, Nova Scotia. August
+                    2017. <br />[<a href="https://arxiv.org/abs/1704.01858">arXiv</a>][<a href="perch2017kobren.bib">bibtex</a>][<a href="https://github.com/iesl/xcluster">code</a>][<a href="https://www.youtube.com/watch?v=t1XL1IptjAA">promo
+                    video</a>][<a href="http://videolectures.net/kdd2017_kobren_extreme_clustering/">talk</a>]
+                  </li>
+		  <li><i class="icon-li
+		  icon-plus"></i><a href="http://www.www2015.it/documents/proceedings/proceedings/p592.pdf">Getting
+		  More for Less: Optimized Crowdsourcing with Dynamic
+		  Tasks and Goals.</a><br/>
+                   <strong>Kobren, A.</strong>, Tan, C.H., Ipeirotis,
+                   P., Gabrilovich, E.<br/>
+                   <em>The International Conference on the World Wide Web.</em> Florence, Italy. May 2015. <br/>[<a href="WWW2015Kobren.bib">bibtex</a>]</li>
+		  <li><i class="icon-li
+		  icon-plus"></i><a href="http://ciir-publications.cs.umass.edu/getpdf.php?id=1182">Domain
+		  Specific Knowledge Base Construction via
+		  Crowdsourcing.</a>  (<strong>Outstanding Paper Award</strong>) <br/>
+                    <strong>Kobren, A.</strong>, Logan, T., Sampangi,
+                    S., McCallum, A.<br/>
+                    <em>NIPS '14 Workshop on Automated Knowledge Base Construction.</em> Montreal, Canada. December 2014.<br/>[<a href="AKBC2014Kobren.bib">bibtex</a>]</li>
+		  <li><i class="icon-li
+		  icon-plus"></i><a href="http://maroo.cs.umass.edu/pub/web/getpdf.php?id=1137">Universal
+		  Schema for Slot Filling and Cold Start: UMass IESL
+		  at TACKBP 2013.</a><br/>Singh, S., Yao, L.,
+		  Belanger, D., <strong>Kobren, A.</strong>, Anzaroot,
+		  S., Wick, M., Passos, A., Pandya, H., Choi, J.,
+		  Martin, B., and McCallum, A.<br/><em>Text Analysis
+		  Conference Knowledge Base Population Track.</em> Gaithersburg, Maryland, USA. November 2013. <br/>[<a href="TACKBP2013Singh.bib">bibtex</a>]</li>
+		  <li><i class="icon-li icon-plus"></i><a href="http://openreview.net/file/a043c4f9-abd9-48df-9aee-68d6649a055a.pdf">Assessing Confidence of Knowledge Base Content With an Experimental Study in Entity Resolution.</a><br/>Wick, M.L., Singh, S., <strong>Kobren, A.</strong> and McCallum, A.<br/><em>CIKM '13 Workshop on Automated Knowledge Base Construction.</em> San Francisco, CA, USA. October 2013. <br/>[<a href="AKBC2013Wick.bib">bibtex</a>]</li>
+  		  <li><i class="icon-li icon-plus"></i><a href="http://openreview.net/file/9ce576d1-d9f8-45ee-bf4c-e91f5b39d5ae.pdf">Large-scale Author Coreference via Hierarchical Entity Representations.</a><br/>Wick, M.L., <strong>Kobren, A.</strong> and McCallum, A.<br/><em>ICML '13 Workshop on Peer Reviewing and Publishing Models.</em> Atlanta, GA, USA. June 2013. <br/>[<a href="ICMLPEER13Wick.bib">bibtex</a>]</li>
+		  <li><i class="icon-li icon-plus"></i><a href="http://www.ics.uci.edu/~qliu1/MLcrowd_ICML_workshop/Papers/ActivePaper8.pdf">Probabilistic Reasoning about Human Edits in Information Integration.</a><br/>Wick, M.L., <strong>Kobren, A.</strong> and McCallum, A.<br/><em>ICML '13 Workshop on Machine Learning Meets Crowdsourcing.</em> Atlanta, GA, USA. June 2013. <br/>[<a href="ICMLMLMC13Wick.bib">bibtex</a>]</li>
+                </ul>
+                <hr>
+
+                <h2>Invited Talks</h2>
+		<ul class="icons-ul">
+	          <li><i class="icon-li icon-plus"></i>Online
+                    Algorithms for Extreme Clustering. Tufts CS Rising
+                    Star Colloquium Series. October,
+                    2018. [<a href="http://www.cs.tufts.edu/t/colloquia/current/?event=1231">Announcement</a>][<a href="https://drive.google.com/open?id=1W6zIRFd8kGikhr1c8kHqZDSVNNJfu0kr">Slides</a>]
+                  </li>
+	          <li><i class="icon-li icon-plus"></i>Getting More
+                    for Less: Optimized Crowdsourcing with Dynamic
+                    Tasks and Goals. UMass Machine Learning and
+                    Friends Lunch Seminar Series. February,
+                    2015. [<a href="https://people.cs.umass.edu/~mlfriend/pmwiki/pmwiki.php?n=Main.GettingMoreForLessOptimizedCrowdsourcingWithDynamicTasksAndGoals">Announcement</a>]
+                  </li>
+                </ul>
+
+                <h3>About Me</h3>
+                I received a B.S. in Computer Science from <a href="http://www.tufts.edu">Tufts University</a> and worked as a researcher at <a href="http://www.ll.mit.edu">MIT Lincoln Laboratory</a> building intelligent decision support systems for US intelligence analysts. I spent the summer of 2014 at <a href="http://www.google.com/insidesearch/features/search/knowledge.html">Google MTV</a> training models of worker-task interaction that I used to optimize a new <a href="https://www.quizz.us/#/list">crowdsourcing platform</a>. I spent the summer of 2016 at Google NYC building deep networks to predict attributes of the locations in Google Maps.</p>
+
+                <h3>Researcher.cc</h3>
+                <p>I was the chief designer and maintainer
+                of <a href="http://researcher.cc">ReSearcher.cc</a>, a
+                database of scientific affiliations and collaborations
+                and conference management. Our backend integration
+                engine dynamically produced ReSearcher's content by
+                synthesizing multiple sources of data including edits
+                from users.  ReSearcher was used by ICCV, ECCV, CVPR
+                and MICCAI to help identify conflicts of interest in
+                peer review and automatically produce matchings of
+                papers to reviewers. The tool is no longer supported,
+                but its functionality has been implemented
+                in <a href="http://openreview.net">OpenReview.net</a>,
+                a fully-featured and customizable conference
+                management tool, which I am also involved with.
+
+                <h3>Mentees, Students, and Interns</h3>
+		<ul class="icons-ul">
+	          <li><i class="icon-li icon-plus"></i><a href="https://d1zfq7n5kr9n8j.cloudfront.net/">Johnny Wei</a></li>
+	          <li><i class="icon-li icon-plus"></i>Siddarth Sampangi</li>
+                  <li><i class="icon-li icon-plus"></i>Aarsh Patel</li>
+                  <li><i class="icon-li icon-plus"></i>Rakshitha Bhat</li>
+                  <li><i class="icon-li icon-plus"></i>Nithya Govindarajan</li>
+                  <li><i class="icon-li icon-plus"></i>Aditya Srinivasan</li>
+                  <li><i class="icon-li icon-plus"></i><a href="https://people.cs.umass.edu/~cmanjesh/">Chetan Manjesh</a></li>
+                  <li><i class="icon-li icon-plus"></i><a href="https://lasamson.github.io/">Lynn Samson</a></li>
+                  <li><i class="icon-li icon-plus"></i>David Ter-Ovanesyan</li>
+                  <li><i class="icon-li icon-plus"></i>Saranya Krishnakumar</li>
+                  <li><i class="icon-li icon-plus"></i><a href="https://dptam.github.io/">Derek Tam</a></li>
+                  <li><i class="icon-li icon-plus"></i>Chen Pan</li>
+                  <li><i class="icon-li icon-plus"></i><a href="https://mohit-surana.github.io/">Mohit Surana</a></li>
+		  <li><i class="icon-li icon-plus"></i><a href="https://people.math.gatech.edu/~jsalem7/">Jad Salem</a></li>
+		  <li><i class="icon-li icon-plus"></i><a href="https://rbsteed.com/">Ryan Steed</a></li>
+                </ul>
+
+                <h3>Service</h3>
+		<ul class="icons-ul">
+	          <li><i class="icon-li icon-plus"></i>AAAI '22 <i>Reviewer</i></li>
+	          <li><i class="icon-li icon-plus"></i>ICML '21 <i>Reviewer</i></li>
+	          <li><i class="icon-li icon-plus"></i>KDD '21 <i>Reviewer</i></li>
+	          <li><i class="icon-li icon-plus"></i>NeurIPS '21 <i>Reviewer</i></li>
+	          <li><i class="icon-li icon-plus"></i>ICML '20 <i>Reviewer</i> (<strong>Top 33% of Reviewers</strong>)</li>
+		  <li><i class="icon-li icon-plus"></i>KDD '20 <i>Reviewer</i></li>
+	          <li><i class="icon-li icon-plus"></i>NeurIPS '20 <i>Reviewer</i></li>
+                  <li><i class="icon-li icon-plus"></i>NeurIPS '19 Conference, <i>Reviewer</i></li>
+                  <li><i class="icon-li icon-plus"></i>EMNLP '19 Conference, <i>Reviewer</i></li>
+                  <li><i class="icon-li icon-plus"></i>ICML '19 Conference, <i>Reviewer</i></li>
+                  <li><i class="icon-li icon-plus"></i>AKBC '19 Conference, <i>Local Co-Chair & Webmaster</i></li>
+                  <li><i class="icon-li icon-plus"></i>NAACL '19 Conference, <i>Reviewer</i></li>
+	          <li><i class="icon-li icon-plus"></i>NIPS '18 <i>Reviewer</i> (<strong>Top 30% of Reviewers</strong>)</li>
+                  <li><i class="icon-li icon-plus"></i>Machine Learning and Friends Lunch, <i>Organizer</i>, 2017-2018</li>
+                  <li><i class="icon-li icon-plus"></i>TKDD '17, <i>Reviewer</i></li>
+                  <li><i class="icon-li icon-plus"></i>WSDM '16, <i>Reviewer</i></li>
+                  <li><i class="icon-li icon-plus"></i>EMNLP '15, <i>Reviewer</i></li>
+                </ul>
+
+
+		<h3>Other Fun Stuff</h3>
+		<p>In my spare time, I enjoy cooking (especially
+		  ethnic foods that involve
+		  <a href="https://en.wikipedia.org/wiki/Asafoetida">uncommon
+		    spices</a>),
+		  <a href="http://www.coursera.org/">learning for free</a>,
+		  climbing, playing soccer and other sports, composing/playing
+		  music, fermenting things, snowboarding, playing
+		  <a href="http://boardgamegeek.com/boardgame/2651/power-grid">
+					German-style board games</a>,
+		  traveling the world, listening to NPR (e.g.
+		  <a href="http://themoth.org/radio">The Moth Radio Hour</a>
+		  and
+		  <a href="http://www.radiolab.org/">wNYC's
+		  RadioLab</a>),
+		  eating <a href="http://en.wikipedia.org/wiki/Gummy_bear">gummy
+		  candy</a>, and learning about philosophy, food
+		  systems, religion, and nutrition.
+			</p>
+
+		<p>In a previous life, I was a varsity college soccer
+		  player, I co-found a start-up and was a junior
+		  olympic Tae Kwon Do champ.
+		</p>
+
+		<p>My favorite book is
+		  <a href="http://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469">Zen and the Art of Motorcycle Maintenance</a>.
+		</p>
+
+                <hr>
+
+                <!-- Pager -->
+                <!-- <ul class="pager"> -->
+                <!--     <li class="previous"> -->
+                <!--         <a href="#">&larr; Older</a> -->
+                <!--     </li> -->
+                <!--     <li class="next"> -->
+                <!--         <a href="#">Newer &rarr;</a> -->
+                <!--     </li> -->
+                <!-- </ul> -->
+
+            </div>
+
+
+            <!-- Footer -->
+            <footer>
+              <div class="row">
+                <div class="col-lg-12">
+                  <p>Copyright &copy; Ari Kobren 2018</p>
+                </div>
+                <!-- /.col-lg-12 -->
+              </div>
+              <!-- /.row -->
+            </footer>
+
+      </div>
+      <!-- /.container -->
+
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

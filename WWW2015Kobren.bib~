@@ -1,9 +1,0 @@
-@inproceedings{WWW2014Kobren,
-        author = {Kobren, Ari and Tan, Chun How and Ipeirotis, Panos and Gabrilovich, Evgeniy},
-        title = {Getting More for Less: Optimized Crowdsourcing with Dynamic Tasks and Goals},
-        abstract = {},
-        booktitle = {Proceedings of the 24rd international conference on World wide web},
-        address = {Florence, Italy},
-        year = {2015},
-        month = {May},
-}
