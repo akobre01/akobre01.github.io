@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a principal research scientist in [Oracle Labs East](https://labs.oracle.com/pls/apex/f?p=94065:12:34309819106958:7), in Burlington, MA. I'm currently focused on leveraging large language models to facilitate various steps in the software development lifecycle. More broadly, I am interested in studying how computational tools--especially those that are powered by machine learning--can be used safely, and to promote social good. 
+I am a principal research scientist in [Oracle Labs East](https://labs.oracle.com/pls/apex/f?p=94065:12:34309819106958:7), which is based in Burlington, MA. I'm currently focused on building machine learning models that help developers find and fix software issues more efficiently. More broadly, I am interested in studying how computational tools--especially those that are powered by machine learning--can be used safely, and to promote social good. 
 
 Before Oracle, I completed a Ph.D. at [UMass Amherst](http://www.cs.umass.edu) under the supervision of [Andrew McCallum](http://people.cs.umass.edu/~mccallum/). I received a B.S. in Computer Science from [Tufts University](http://www.tufts.edu) and worked as a researcher at [MIT Lincoln Laboratory](http://www.ll.mit.edu) building intelligent decision support systems. I spent the summers of 2014 and 2016 interning at Google. 
 
