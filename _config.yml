@@ -129,8 +129,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Resourceful. Easy. Delicious. # blog_name will be displayed in your blog page
-blog_description: Maximizing tastiness while minimizing effort and waste.
+blog_name: Resourceful. Easy. Delicious.  # blog_name will be displayed in your blog page
+blog_description: Maximizing taste, minimizing waste, amortizing effort.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -247,7 +247,6 @@ exclude:
   - _pages/publications
   - _pages/teaching
   - _pages/projects
-  - _pages/blog
   - _pages/cv
   - _pages/profiles
   - _pages/repositories
@@ -280,7 +279,7 @@ defaults:
   - scope:
       path: "assets"
     values:
-      sitemap: false
+      sitemap: true
 
 sass:
   style: compressed
@@ -309,8 +308,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_categories: # ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
